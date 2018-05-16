@@ -4,10 +4,10 @@
 2. Import and use a .net 451 dll built on Windows
 3. Create Suave server on .net 451, using the Windows .net 451 dll
 
-
-Note 1: To test on OS X, we need to install an F# Compiler that runs on .net Framework or Mono.
-Note 2: We should be able to use only the command line.
-Note 3. For organization (and ease of opening via Visual Studio if desired), we will create a single solution file.
+Misc Notes:
+1. To test on OS X, we need to install an F# Compiler that runs on .net Framework or Mono.
+2. We should be able to use only the command line.
+3. For organization (and ease of opening via Visual Studio if desired), we will create a single solution file.
 
 
 ------------
