@@ -17,8 +17,7 @@ Misc Notes:
 
 Step 1. Clone this entire repo.
 
-Step 2. Build
-From the project root (containing the solution file)
+Step 2. Build from the project root (containing the solution file)
 
 ```shell
 $ dotnet restore
