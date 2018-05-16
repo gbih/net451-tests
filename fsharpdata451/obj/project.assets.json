@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5.1": {
+      "FSharp.Core/4.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Core.dll": {}
+        }
+      },
+      "FSharp.Data/2.4.6": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/FSharp.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FSharp.Core/4.2.3": {
+      "sha512": "PthzJd0cY9L7+mPHoMB0B9Z9moR4oO1rU5RDrVW44cfMm0R9AYFf+F3BsuTvP9clr9w/Wa0wbSfEwbJV8sV80A==",
+      "type": "package",
+      "path": "fsharp.core/4.2.3",
+      "files": [
+        "fsharp.core.4.2.3.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/net45/FSharp.Core.dll",
+        "lib/net45/FSharp.Core.optdata",
+        "lib/net45/FSharp.Core.sigdata",
+        "lib/net45/FSharp.Core.xml",
+        "lib/netstandard1.6/FSharp.Core.dll",
+        "lib/netstandard1.6/FSharp.Core.optdata",
+        "lib/netstandard1.6/FSharp.Core.sigdata",
+        "lib/netstandard1.6/FSharp.Core.xml"
+      ]
+    },
+    "FSharp.Data/2.4.6": {
+      "sha512": "eAuuYTZiLPw8j4LlqnxEokvN+QBs9H/JuYNidpmXzYWopb9wkB/DGDFtbygUMkmDgWoCrUSgUQ6A0vCqcsxV0g==",
+      "type": "package",
+      "path": "fsharp.data/2.4.6",
+      "files": [
+        "fsharp.data.2.4.6.nupkg.sha512",
+        "fsharp.data.nuspec",
+        "lib/net45/FSharp.Data.DesignTime.dll",
+        "lib/net45/FSharp.Data.DesignTime.pdb",
+        "lib/net45/FSharp.Data.DesignTime.xml",
+        "lib/net45/FSharp.Data.dll",
+        "lib/net45/FSharp.Data.pdb",
+        "lib/net45/FSharp.Data.xml",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.DesignTime.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.DesignTime.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.DesignTime.xml",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.xml",
+        "lib/portable-net45+netcore45/FSharp.Data.DesignTime.dll",
+        "lib/portable-net45+netcore45/FSharp.Data.DesignTime.pdb",
+        "lib/portable-net45+netcore45/FSharp.Data.DesignTime.xml",
+        "lib/portable-net45+netcore45/FSharp.Data.dll",
+        "lib/portable-net45+netcore45/FSharp.Data.pdb",
+        "lib/portable-net45+netcore45/FSharp.Data.xml",
+        "linqpad-samples/GitHub.linq",
+        "linqpad-samples/Jira.linq",
+        "linqpad-samples/TypeInference.linq"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5.1": [
+      "FSharp.Core >= 4.2.*",
+      "FSharp.Data >= 2.4.6"
+    ]
+  },
+  "packageFolders": {
+    "/Users/ih/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/ih/Desktop/F-PROJECTS/fsharpdata451/fsharpdata451.fsproj",
+      "projectName": "fsharpdata451",
+      "projectPath": "/Users/ih/Desktop/F-PROJECTS/fsharpdata451/fsharpdata451.fsproj",
+      "packagesPath": "/Users/ih/.nuget/packages/",
+      "outputPath": "/Users/ih/Desktop/F-PROJECTS/fsharpdata451/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/ih/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net451"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net451": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net451": {
+        "dependencies": {
+          "FSharp.Core": {
+            "target": "Package",
+            "version": "[4.2.*, )"
+          },
+          "FSharp.Data": {
+            "target": "Package",
+            "version": "[2.4.6, )"
+          }
+        }
+      }
+    }
+  }
+}

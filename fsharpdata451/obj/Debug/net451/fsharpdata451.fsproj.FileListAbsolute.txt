@@ -1,0 +1,10 @@
+/Users/ih/Desktop/F-PROJECTS/fsharpdata451/bin/Debug/net451/fsharpdata451.exe
+/Users/ih/Desktop/F-PROJECTS/fsharpdata451/bin/Debug/net451/fsharpdata451.pdb
+/Users/ih/Desktop/F-PROJECTS/fsharpdata451/bin/Debug/net451/FSharp.Core.dll
+/Users/ih/Desktop/F-PROJECTS/fsharpdata451/obj/Debug/net451/fsharpdata451.fsprojResolveAssemblyReference.cache
+/Users/ih/Desktop/F-PROJECTS/fsharpdata451/obj/Debug/net451/fsharpdata451.fsproj.CopyComplete
+/Users/ih/Desktop/F-PROJECTS/fsharpdata451/obj/Debug/net451/fsharpdata451.exe
+/Users/ih/Desktop/F-PROJECTS/fsharpdata451/obj/Debug/net451/fsharpdata451.pdb
+/Users/ih/Desktop/F-PROJECTS/fsharpdata451/bin/Debug/net451/fsharpdata451.exe.config
+/Users/ih/Desktop/F-PROJECTS/fsharpdata451/bin/Debug/net451/FSharp.Data.dll
+/Users/ih/Desktop/F-PROJECTS/fsharpdata451/obj/Debug/net451/fsharpdata451.exe.config

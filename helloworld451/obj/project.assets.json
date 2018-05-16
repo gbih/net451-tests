@@ -1,0 +1,82 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5.1": {
+      "FSharp.Core/4.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FSharp.Core/4.2.3": {
+      "sha512": "PthzJd0cY9L7+mPHoMB0B9Z9moR4oO1rU5RDrVW44cfMm0R9AYFf+F3BsuTvP9clr9w/Wa0wbSfEwbJV8sV80A==",
+      "type": "package",
+      "path": "fsharp.core/4.2.3",
+      "files": [
+        "fsharp.core.4.2.3.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/net45/FSharp.Core.dll",
+        "lib/net45/FSharp.Core.optdata",
+        "lib/net45/FSharp.Core.sigdata",
+        "lib/net45/FSharp.Core.xml",
+        "lib/netstandard1.6/FSharp.Core.dll",
+        "lib/netstandard1.6/FSharp.Core.optdata",
+        "lib/netstandard1.6/FSharp.Core.sigdata",
+        "lib/netstandard1.6/FSharp.Core.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5.1": [
+      "FSharp.Core >= 4.2.*"
+    ]
+  },
+  "packageFolders": {
+    "/Users/ih/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/ih/Desktop/F-PROJECTS/helloworld451/helloworld451.fsproj",
+      "projectName": "helloworld451",
+      "projectPath": "/Users/ih/Desktop/F-PROJECTS/helloworld451/helloworld451.fsproj",
+      "packagesPath": "/Users/ih/.nuget/packages/",
+      "outputPath": "/Users/ih/Desktop/F-PROJECTS/helloworld451/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/ih/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net451"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net451": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net451": {
+        "dependencies": {
+          "FSharp.Core": {
+            "target": "Package",
+            "version": "[4.2.*, )"
+          }
+        }
+      }
+    }
+  }
+}

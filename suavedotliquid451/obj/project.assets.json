@@ -1,0 +1,228 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5.1": {
+      "DotLiquid/2.0.145": {
+        "type": "package",
+        "compile": {
+          "lib/net45/DotLiquid.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DotLiquid.dll": {}
+        },
+        "resource": {
+          "lib/net45/it/DotLiquid.resources.dll": {
+            "locale": "it"
+          }
+        }
+      },
+      "FSharp.Core/4.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Core.dll": {}
+        }
+      },
+      "FSharp.Data/2.4.6": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/FSharp.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Data.dll": {}
+        }
+      },
+      "Suave/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.0.0.1"
+        },
+        "compile": {
+          "lib/net40/Suave.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Suave.dll": {}
+        }
+      },
+      "Suave.DotLiquid/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "DotLiquid": "2.0.64",
+          "FSharp.Core": "4.0.0.1",
+          "Suave": "2.2.1"
+        },
+        "compile": {
+          "lib/net40/Suave.DotLiquid.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Suave.DotLiquid.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotLiquid/2.0.145": {
+      "sha512": "Q+E8KeyVtNXZrgXnaYSmxAbkr1Aiq2G1yXTSKqxu360a0yKWg6jYqSPZCsSZombNUyhYF11s19X1AsixpHo1yQ==",
+      "type": "package",
+      "path": "dotliquid/2.0.145",
+      "files": [
+        "LICENSE.txt",
+        "dotliquid.2.0.145.nupkg.sha512",
+        "dotliquid.nuspec",
+        "lib/net45/DotLiquid.dll",
+        "lib/net45/it/DotLiquid.resources.dll",
+        "lib/netstandard1.3/DotLiquid.dll",
+        "lib/netstandard1.3/it/DotLiquid.resources.dll",
+        "readme.txt"
+      ]
+    },
+    "FSharp.Core/4.2.3": {
+      "sha512": "PthzJd0cY9L7+mPHoMB0B9Z9moR4oO1rU5RDrVW44cfMm0R9AYFf+F3BsuTvP9clr9w/Wa0wbSfEwbJV8sV80A==",
+      "type": "package",
+      "path": "fsharp.core/4.2.3",
+      "files": [
+        "fsharp.core.4.2.3.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/net45/FSharp.Core.dll",
+        "lib/net45/FSharp.Core.optdata",
+        "lib/net45/FSharp.Core.sigdata",
+        "lib/net45/FSharp.Core.xml",
+        "lib/netstandard1.6/FSharp.Core.dll",
+        "lib/netstandard1.6/FSharp.Core.optdata",
+        "lib/netstandard1.6/FSharp.Core.sigdata",
+        "lib/netstandard1.6/FSharp.Core.xml"
+      ]
+    },
+    "FSharp.Data/2.4.6": {
+      "sha512": "eAuuYTZiLPw8j4LlqnxEokvN+QBs9H/JuYNidpmXzYWopb9wkB/DGDFtbygUMkmDgWoCrUSgUQ6A0vCqcsxV0g==",
+      "type": "package",
+      "path": "fsharp.data/2.4.6",
+      "files": [
+        "fsharp.data.2.4.6.nupkg.sha512",
+        "fsharp.data.nuspec",
+        "lib/net45/FSharp.Data.DesignTime.dll",
+        "lib/net45/FSharp.Data.DesignTime.pdb",
+        "lib/net45/FSharp.Data.DesignTime.xml",
+        "lib/net45/FSharp.Data.dll",
+        "lib/net45/FSharp.Data.pdb",
+        "lib/net45/FSharp.Data.xml",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.DesignTime.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.DesignTime.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.DesignTime.xml",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8/FSharp.Data.xml",
+        "lib/portable-net45+netcore45/FSharp.Data.DesignTime.dll",
+        "lib/portable-net45+netcore45/FSharp.Data.DesignTime.pdb",
+        "lib/portable-net45+netcore45/FSharp.Data.DesignTime.xml",
+        "lib/portable-net45+netcore45/FSharp.Data.dll",
+        "lib/portable-net45+netcore45/FSharp.Data.pdb",
+        "lib/portable-net45+netcore45/FSharp.Data.xml",
+        "linqpad-samples/GitHub.linq",
+        "linqpad-samples/Jira.linq",
+        "linqpad-samples/TypeInference.linq"
+      ]
+    },
+    "Suave/2.2.1": {
+      "sha512": "9u6wIhe3rb0FvcOtmuoOXkwOL0vKWgiQpfzDmg6LiLYqoi0noar2ndIjaaytsAFsyi54Cea1jesSgGNUx+PBBA==",
+      "type": "package",
+      "path": "suave/2.2.1",
+      "files": [
+        "lib/net40/Suave.dll",
+        "lib/net40/Suave.dll.config",
+        "lib/net40/Suave.dll.mdb",
+        "lib/net40/Suave.xml",
+        "lib/netstandard1.6/Suave.dll",
+        "lib/netstandard1.6/Suave.xml",
+        "suave.2.2.1.nupkg.sha512",
+        "suave.nuspec"
+      ]
+    },
+    "Suave.DotLiquid/2.2.1": {
+      "sha512": "fze2ug/107lA6EwuRDjm0N3JzdTfHcBe82y9YxvPXrCt4eCuOQbzx+rjGhI9oW1ViYX1CDz643k6bkHBWh353Q==",
+      "type": "package",
+      "path": "suave.dotliquid/2.2.1",
+      "files": [
+        "lib/net40/Suave.DotLiquid.dll",
+        "lib/net40/Suave.DotLiquid.dll.mdb",
+        "lib/net40/Suave.DotLiquid.xml",
+        "lib/netstandard1.6/Suave.DotLiquid.dll",
+        "lib/netstandard1.6/Suave.DotLiquid.xml",
+        "suave.dotliquid.2.2.1.nupkg.sha512",
+        "suave.dotliquid.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5.1": [
+      "DotLiquid >= 2.0.145",
+      "FSharp.Core >= 4.2.*",
+      "FSharp.Data >= 2.4.6",
+      "Suave >= 2.2.1",
+      "Suave.DotLiquid >= 2.2.1"
+    ]
+  },
+  "packageFolders": {
+    "/Users/ih/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/ih/Desktop/F-PROJECTS/suavedotliquid451/suavedotliquid451.fsproj",
+      "projectName": "suavedotliquid451",
+      "projectPath": "/Users/ih/Desktop/F-PROJECTS/suavedotliquid451/suavedotliquid451.fsproj",
+      "packagesPath": "/Users/ih/.nuget/packages/",
+      "outputPath": "/Users/ih/Desktop/F-PROJECTS/suavedotliquid451/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/ih/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net451"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net451": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net451": {
+        "dependencies": {
+          "DotLiquid": {
+            "target": "Package",
+            "version": "[2.0.145, )"
+          },
+          "FSharp.Core": {
+            "target": "Package",
+            "version": "[4.2.*, )"
+          },
+          "FSharp.Data": {
+            "target": "Package",
+            "version": "[2.4.6, )"
+          },
+          "Suave": {
+            "target": "Package",
+            "version": "[2.2.1, )"
+          },
+          "Suave.DotLiquid": {
+            "target": "Package",
+            "version": "[2.2.1, )"
+          }
+        }
+      }
+    }
+  }
+}

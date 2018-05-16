@@ -1,0 +1,7 @@
+/Users/ih/Desktop/F-PROJECTS/helloworld451/bin/Debug/net451/helloworld451.exe
+/Users/ih/Desktop/F-PROJECTS/helloworld451/bin/Debug/net451/helloworld451.pdb
+/Users/ih/Desktop/F-PROJECTS/helloworld451/bin/Debug/net451/FSharp.Core.dll
+/Users/ih/Desktop/F-PROJECTS/helloworld451/obj/Debug/net451/helloworld451.fsprojResolveAssemblyReference.cache
+/Users/ih/Desktop/F-PROJECTS/helloworld451/obj/Debug/net451/helloworld451.fsproj.CopyComplete
+/Users/ih/Desktop/F-PROJECTS/helloworld451/obj/Debug/net451/helloworld451.exe
+/Users/ih/Desktop/F-PROJECTS/helloworld451/obj/Debug/net451/helloworld451.pdb

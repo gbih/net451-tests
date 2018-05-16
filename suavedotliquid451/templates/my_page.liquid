@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>FSharp + DotLiquid Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1 class="display-5">FSharp.Data + Suave.DotLiquid</h1>
+
+        <table class="table mt-5">
+            <thead>
+                <tr>
+                    <th scope="col">City</th>
+                    <th scope="col">Windspeed</th>
+                    <th scope="col">Temperature</th>
+                    <th scope="col">Humidity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{model.name}}</td>
+                    <td>{{model.windspeed}}</td>
+                    <td>{{model.maintemp}}</td>
+                    <td>{{model.humidity}}</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
